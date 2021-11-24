@@ -1,16 +1,27 @@
 /* Basislayout */
 
+#foto{
+    float:left;
+    text-align:center;
+    amrgin-left:150px;
+
+    
+}
+p{
+    text-align: center;
+    color:#ffffff;
+}
 html, body {
     height: 100%;
     padding: 0;
-    background-color:lightblue;  
+    background-color:rgb(10, 0, 156);  
     
     color: #303030;
     font: Verdana, Arial, Sans-Serif;
 }
 
 .kleur{
-    color:rgb(11, 96, 153);
+    color:rgb(255, 255, 255);
 }
 main {
     margin: 0 auto;
@@ -26,7 +37,7 @@ article {
 
 
 .header {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-align: center;
 }
 
@@ -61,10 +72,10 @@ a:hover {
 /* navigatiebalk */
 nav ul {
     list-style-type: none;
-    margin: auto;
-    padding: 0;
-    background-color: #dddddd;
-    overflow: hidden;
+    margin:auto;
+    padding:2px;
+    background-color: #ffffff;
+    overflow:auto;
 }
 
 nav ul li {
@@ -73,7 +84,7 @@ nav ul li {
 
 nav li a {
     display: block;
-    color: white;
+    color:rgb(10, 0, 156)
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
