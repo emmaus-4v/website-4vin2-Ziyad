@@ -3,7 +3,8 @@
 #foto{
     float:left;
     text-align:center;
-    amrgin-left:150px;
+    margin-right:1000px;
+    width:350px;
 
     
 }
@@ -22,11 +23,14 @@ html, body {
 
 .kleur{
     color:rgb(255, 255, 255);
+    text-align: center;
+    position: relative;
 }
 main {
     margin: 0 auto;
-    width: 700px;
-    position:relative;
+    width: 900px;
+    position: relative;
+    
     
 }
 
@@ -71,23 +75,26 @@ a:hover {
 
 /* navigatiebalk */
 nav ul {
-    list-style-type: none;
-    margin:auto;
-    padding:2px;
+    list-style-type:none;
+    position:relative;
     background-color: #ffffff;
-    overflow:auto;
+    overflow:hidden;
+    width: 1370px;
+    
+   
+    
 }
 
 nav ul li {
-    float: left;
+float:left;
 }
 
 nav li a {
-    display: block;
+    display:inline-block;
     color:rgb(10, 0, 156)
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
+    text-decoration:none;
 }
 
 nav li a:hover {
