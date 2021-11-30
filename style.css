@@ -2,15 +2,18 @@
 
 #foto{
     float:left;
-    text-align:center;
-    margin-right:1000px;
     width:350px;
+    
+
 
     
 }
 p{
-    text-align: center;
+  
     color:#ffffff;
+    margin-left:450px;
+    width:800px;
+    margin-top:50px;
 }
 html, body {
     height: 100%;
@@ -28,8 +31,8 @@ html, body {
 }
 main {
     margin: 0 auto;
-    width: 900px;
-    position: relative;
+    width: 1000px;
+    position:;
     
     
 }
@@ -57,6 +60,7 @@ footer {
 img.zweefLinks {
     float: left;
     margin-right: 15px;
+
 }
 
 .smalltext {
@@ -79,15 +83,15 @@ nav ul {
     position:relative;
     background-color: #ffffff;
     overflow:hidden;
-    width: 1370px;
+    width: 1420px;
     
    
     
 }
 
 nav ul li {
-float:left;
-}
+    float:left;
+    }
 
 nav li a {
     display:inline-block;
@@ -97,13 +101,11 @@ nav li a {
     text-decoration:none;
 }
 
-nav li a:hover {
-    background-color: #aaaaaa;
-}
 
 nav li a.active {
     background-color: skyblue;
 }
+
 
 
 
