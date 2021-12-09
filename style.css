@@ -1,5 +1,29 @@
 /* Basislayout */
 
+  
+  .bg { 
+    /* The image used */
+    background-image: url("561961.jpg");
+  width: 100%;
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.blauw {
+    color: skyblue;
+    text-align: center;
+    position: relative;
+}
+
+
+
+
+
 #foto{
     
     width:500px;
@@ -10,14 +34,14 @@
 p{
   
     color:#ffffff;
-    margin-left:450px;
+    margin-right:650px;
     width:800px;
     margin-top:50px;
 }
 html, body {
     height: 100%;
-    padding: 0;
-    background-color:rgb(10, 0, 156);  
+    padding: 0px;
+    background-color:rgb(7, 1, 1);  
     
     color: #303030;
     font: Verdana, Arial, Sans-Serif;
@@ -30,7 +54,7 @@ html, body {
 }
 main {
     margin: 0 auto;
-    width: 1000px;
+    width: 800px;
     
     
     
@@ -102,12 +126,12 @@ nav li a.active {
 }
 p.midden{
     margin-left:100px;
-    margin-top:20px;
+    margin-top: 20px 
     
 }
 ol{
     color: #ffffff;
-    margin-left:430px;
+    margin-right:470px;
     width:800px;
     margin-top:10px;
     
