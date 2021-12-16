@@ -33,18 +33,18 @@
 
 
 .foto{
-    
     width:500px;
-    margin-left:1300px;
+    margin-right:1000px;
     position:absolute;
 }
 
 p{
   
     color:#ffffff;
-    margin-right:1000px;
+    
     width:800px;
     margin-top:50px;
+    float: left;
     
 }
 html, body {
