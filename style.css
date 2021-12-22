@@ -3,7 +3,7 @@
   
   .bg { 
     /* The image used */
-    background-image: url("561961.jpg");
+    background-image: url("763.jpg")
   width: 100%;
     /* Full height */
     height: 100%; 
@@ -43,7 +43,7 @@ p{
     color:#ffffff;
     
     width:800px;
-    margin-top:50px;
+    margin-top:10px;
     float: left;
     
 }
@@ -89,9 +89,12 @@ footer {
 
 /* specifieke stijlen */
 
-img.zweefLinks {
-    float: left;
-    margin-right: 15px;
+img.zweefrechts {
+    float:right;
+    margin-left: 10px;
+    padding-left:15px;
+   
+
 
 }
 
@@ -115,6 +118,7 @@ nav ul {
     position:relative;
     background-color: #ffffff;
     overflow:hidden;
+    width:100%;
 }
 
 nav ul li {
@@ -127,6 +131,7 @@ nav li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration:none;
+    
 }
 
 
@@ -146,5 +151,7 @@ ol{
     
 }
 
-
+.zweefbeneden{
+    float:left;
+}
 
