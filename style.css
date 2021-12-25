@@ -1,7 +1,7 @@
 /* Basislayout */
 
   
-  .bg { 
+.bg { 
     /* The image used */
     background-image: url("763.jpg")
   width: 100%;
@@ -50,7 +50,7 @@ p{
 html, body {
     height: 97%;
     padding: 0px;
-    background-color:rgb(7, 1, 1);  
+    background-color:rgb(0, 0, 0);  
     
     color: #303030;
     font: Verdana, Arial, Sans-Serif;
@@ -93,6 +93,8 @@ img.zweefrechts {
     float:right;
     margin-left: 10px;
     padding-left:15px;
+    text-overflow:clip;
+
    
 
 
@@ -114,12 +116,18 @@ a:hover {
 
 /* navigatiebalk */
 nav ul {
-    list-style-type:none;
-    position:relative;
-    background-color: #ffffff;
-    overflow:hidden;
-    width:100%;
+
+ float: left; 
+ display: inline;  
+ 
+ list-style-type: none;
+ padding: 10px;  
+ 
 }
+
+nav li:hover { 
+    background: rgb(255, 255, 255);
+ }
 
 nav ul li {
     float:left;
@@ -131,6 +139,7 @@ nav li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration:none;
+   
     
 }
 
@@ -140,14 +149,13 @@ nav li a.active {
 }
 p.midden{
     margin-left:0px;
-    margin-top: 20px 
+   margin-top: 0%;
     
 }
 ol{
     color: #ffffff;
-    margin-right:470px;
-    width:800px;
-    margin-top:10px;
+
+   
     
 }
 
@@ -155,3 +163,7 @@ ol{
     float:left;
 }
 
+.zweeflinks{
+    float: left;
+    text-align:left;
+}
