@@ -1,24 +1,5 @@
 /* Basislayout */
-.bg { 
-    /* The image used */
-    background-image: url("")
-  
-    /* Full height */
-    height: 100%; 
-  
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
- #filmpje{
-    margin-left:60px;
-    width:600px;
-    margin-top:0px;
-    float:center;
-    margin-bottom: 0px;
-  
- }
+
 
   
   .floatright {
@@ -26,6 +7,7 @@
     margin-right: 50px;
     width: 350px;
     margin-left:70px;
+    margin-bottom: 5px;
   } 
   
   .floatClear {
