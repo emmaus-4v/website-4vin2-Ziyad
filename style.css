@@ -1,15 +1,32 @@
 /* Basislayout */
+.bg { 
+    /* The image used */
+    background-image: url("")
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ #filmpje{
+    margin-left:60px;
+    width:600px;
+    margin-top:0px;
+    float:center;
+    margin-bottom: 0px;
+  
+ }
 
   
-
-
-  
-  .floatLeft {
-    float: left;
+  .floatright {
+   float:right;
     margin-right: 50px;
-    width: 300px;
-    margin-left:130px;
-  }
+    width: 350px;
+    margin-left:70px;
+  } 
   
   .floatClear {
     clear: both;
@@ -32,16 +49,19 @@
 
 p{
   
-    color:#ffffff;
-    
+    color:rgb(255, 255, 255);
+    margin-left:60px;
     width:800px;
     margin-top:10px;
     float: left;
+    margin-bottom: 0px;
+    font-style:normal;
+    
     
 }
 html, body {
     height: 100%;
-    padding: 0px;
+    
     background-color:rgb(0, 0, 0);  
     
     color: #303030;
